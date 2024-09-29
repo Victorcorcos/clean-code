@@ -24,7 +24,9 @@ It is a software development philosophy that consists in applying techniques tha
 ## Where did Clean Code originate? 📘
 
 > [!NOTE]
+
 > “Clean Code: A Handbook of Agile Software Craftsmanship” (2008)
+
 > — 𝘙𝘰𝘣𝘦𝘳𝘵 𝘊. 𝘔𝘢𝘳𝘵𝘪𝘯
 
 
@@ -44,7 +46,9 @@ It is a software development philosophy that consists in applying techniques tha
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
 
 > [!NOTE]
+
 > “Os negócios mudam. A tecnologia muda. A equipe muda. Os membros da equipe mudam. O problema não é a mudança em si, porque a mudança vai acontecer; o problema, na verdade, é a incapacidade de lidar com a mudança quando ela chega.”
+
 > — Kent Beck
 
 ### Complexity
