@@ -19,7 +19,8 @@ It is a software development philosophy that consists in applying techniques tha
 
 > [!NOTE]
 > “Clean Code: A Handbook of Agile Software Craftsmanship” (2008)
-> — 𝘙𝘰𝘣𝘦𝘳𝘵 𝘊. 𝘔𝘢𝘳𝘵𝘪𝘯
+>
+> — Robert C. Martin
 
 
 ## Some signs that the code is dirty 💩
@@ -75,10 +76,12 @@ If a piece of code is identical or very similar to another, try to extract it in
 
 > [!NOTE]
 > "Duplication is the primary enemy of a well-designed system. It represents extra work, extra risk, and unnecessary extra complexity."
+>
 > — Robert C. Martin
 
 > [!NOTE]
 > "I think one of the most valuable rules is to avoid duplication. Once and only once."
+>
 > — Martin Fowler
 
 
