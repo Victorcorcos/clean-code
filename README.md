@@ -39,6 +39,7 @@ It's when you have a system that displays the user's name on the screen, and you
 
 > [!NOTE]
 > "Business changes. Technology changes. The team changes. Team members change. The problem is not the change itself, because change will happen; the problem, in fact, is the inability to cope with change when it arrives."
+>
 > — Kent Beck
 
 ### Complexity
