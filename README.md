@@ -5,28 +5,20 @@ A repository dedicated to share Clean Code Hints
 
 ## What is Clean Code? ♻️
 
-It is a software development philosophy that consists in applying techniques that make the code more…
+It is a software development philosophy that consists in applying techniques that make the code...
 
-✅ Clear
-✅ Intuitive
-✅ Reliable
-✅ Understandable
-✅ Easy to read
-✅ Easy to modify
-✅ Easy to review
-✅ Easy to maintain
-✅ Reusable
-✅ Maintanable
-✅ Less susceptible to technical debts (TDs)
-✅ Less susceptible bugs
+|              More             | Easy to               | Ultimately More                           |
+|-------------------------------|-----------------------|-------------------------------------------|
+| ✅ Clear                      | ✅ Read              | ✅ Reusable                               |
+| ✅ Intuitive                  | ✅ Modify            | ✅ Maintanable                            |
+| ✅ Reliable                   | ✅ Review            | ✅ Resistant to Technical Debts 🛠️ (TDs)  |
+| ✅ Understandable             | ✅ Maintain          | ✅ Resistant to Bugs 🐛                   |
 
 
 ## Where did Clean Code originate? 📘
 
 > [!NOTE]
-
 > “Clean Code: A Handbook of Agile Software Craftsmanship” (2008)
-
 > — 𝘙𝘰𝘣𝘦𝘳𝘵 𝘊. 𝘔𝘢𝘳𝘵𝘪𝘯
 
 
@@ -46,9 +38,7 @@ It is a software development philosophy that consists in applying techniques tha
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
 
 > [!NOTE]
-
-> “Os negócios mudam. A tecnologia muda. A equipe muda. Os membros da equipe mudam. O problema não é a mudança em si, porque a mudança vai acontecer; o problema, na verdade, é a incapacidade de lidar com a mudança quando ela chega.”
-
+> "Business changes. Technology changes. The team changes. Team members change. The problem is not the change itself, because change will happen; the problem, in fact, is the inability to cope with change when it arrives."
 > — Kent Beck
 
 ### Complexity
