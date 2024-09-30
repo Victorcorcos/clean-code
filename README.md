@@ -144,7 +144,7 @@ Here are some of them...
 <table>
   <tr>
     <td>
-
+```rb
 def greet_morning
   puts "Good morning, Alice!"
 end
@@ -160,10 +160,10 @@ end
 greet_morning
 greet_afternoon
 greet_evening
-
+```
 </td>
 <td>
-
+```rb
 def greet(time_of_day, name)
   puts "Good #{time_of_day}, #{name}!"
 end
@@ -171,7 +171,7 @@ end
 greet("morning", "Alice")
 greet("afternoon", "Alice")
 greet("evening", "Alice")
-
+```
 </td>
   </tr>
 </table>
