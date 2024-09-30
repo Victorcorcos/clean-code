@@ -141,6 +141,8 @@ Here are some of them...
 >
 > — Steve Jobs
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## YAGNI
 
@@ -163,6 +165,8 @@ Here are some of them...
 >
 > Do the **Necessary** → Do the **Simple** → Do the **Unique**
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## SRP
 
@@ -176,11 +180,15 @@ Here are some of them...
 >
 > — Robert C. Martin
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## Avoid Hadouken IFs 
 
 - Avoid nested IFs (**Hadouken IFs**)
 - Solution: Early Returns, Switch-Cases
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
 ## Avoid Negative Conditionals
@@ -198,6 +206,8 @@ Here are some of them...
 >
 > — Robert C. Martin"
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## Avoid Flag Arguments
 
@@ -208,6 +218,8 @@ Here are some of them...
 > "Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice."  
 >
 > — Robert C. Martin
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
 ## Avoid Comments
@@ -224,6 +236,8 @@ Here are some of them...
 > "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous."
 >
 > — Martin Fowler
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
 ## Good Nomenclatures
@@ -242,6 +256,8 @@ Here are some of them...
 >
 > — Robert C. Martin
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## Use Vertical Formatting
 
@@ -258,6 +274,8 @@ Here are some of them...
 > "Programming is the art of telling another human being what one wants the computer to do."  
 >
 > — Donald Knuth
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
 ## Delete Code > Create Code
@@ -280,6 +298,8 @@ Here are some of them...
 >
 > — Bill Gates
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## Boy Scout Rule
 
@@ -296,6 +316,8 @@ Here are some of them...
 > "If we all checked in our code a little cleaner than when we checked it out, the code simply could not rot."  
 >
 > — Robert C. Martin
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
 # Performance vs. Clarity ⚖️
