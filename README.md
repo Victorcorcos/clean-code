@@ -25,10 +25,10 @@ It is a software development philosophy that consists in applying techniques tha
 
 # Some signs that the code is dirty 💩
 
-<!-- Dirty Code Signs -->
+<!-- Code Smells -->
 <table><tr><td>
 <details open>
-  <summary>Dirty Code Signs</summary>
+  <summary>Code Smells</summary>
   <ol>
     <li><a href="#rigidity">Rigidity</a>: No change is trivial; each change in the code adds more twists and tangles.</li>
     <li><a href="#complexity">Complexity</a>: Changes require a lot of research for understanding and implementation.</li>
@@ -47,7 +47,7 @@ It's when you have a system that displays the user's name on the screen, and you
 >
 > — Kent Beck
 
-<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
 
 ## Complexity
@@ -65,7 +65,7 @@ It's when the code for sorting a list uses the code for sorting a queue and then
 >
 > — Joel Spolsky (Creator and CEO of Stack Overflow)
 
-<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
 
 ## Fragility
@@ -82,14 +82,14 @@ It's when you fix the login and break the registration.
 >
 > — Martin Fowler
 
-<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
 
 ## Imobility
 
 It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
 
-<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
 
 # How can I clean my code? 🧹
