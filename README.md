@@ -33,7 +33,7 @@ It is a software development philosophy that consists in applying techniques tha
     <li><a href="#rigidity">Rigidity</a>: No change is trivial; each change in the code adds more twists and tangles.</li>
     <li><a href="#complexity">Complexity</a>: Changes require a lot of research for understanding and implementation.</li>
     <li><a href="#fragility">Fragility</a>: Changes break existing parts of the code.</li>
-    <li><a href="#immobility">Immobility</a>: You can't reuse existing parts of the code.</li>
+    <li><a href="#imobility">Immobility</a>: You can't reuse existing parts of the code.</li>
   </ol>
 </details>
 </td></tr></table>
