@@ -84,18 +84,26 @@ It's when you implement code that builds a table but can't reuse existing code t
 There are various clean code techniques available! 🚀  
 Here are some of them...
 
-1. DRY
-2. KISS
-3. YAGNI
-4. SRP
-5. Avoid IFs Hadouken 
-6. Avoid Negative Conditionals
-7. Avoid Flag Arguments
-8. Avoid Comments
-9. Good Nomenclatures
-10. Use Vertical Formatting
-11. Delete Code > Create Code
-12. Boy Scout Rule
+<!-- Techniques -->
+<table><tr><td>
+<details open>
+  <summary>Techniques</summary>
+  <ol>
+    <li><a href="#dry">DRY</a></li>
+    <li><a href="#kiss">KISS</a></li>
+    <li><a href="#yagni">YAGNI</a></li>
+    <li><a href="#srp">SRP</a></li>
+    <li><a href="#avoid-ifs-hadouken">Avoid IFs Hadouken </a></li>
+    <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
+    <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
+    <li><a href="#avoid-comments">Avoid Comments</a></li>
+    <li><a href="#good-nomenclatures">Good Nomenclatures</a></li>
+    <li><a href="#use-vertical-formatting">Use Vertical Formatting</a></li>
+    <li><a href="#delete-code-create-code">Delete Code > Create Code</a></li>
+    <li><a href="#boy-scout-rule">Boy Scout Rule</a></li>
+  </ol>
+</details>
+</td></tr></table>
 
 
 ## DRY
