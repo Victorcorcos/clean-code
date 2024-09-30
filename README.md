@@ -141,6 +141,25 @@ Here are some of them...
 
 ### Didactic Example 👨‍💻
 
+<pre><code class="language-ruby">
+def greet_morning
+  puts "Good morning, Alice!"
+end
+
+def greet_afternoon
+  puts "Good afternoon, Alice!"
+end
+
+def greet_evening
+  puts "Good evening, Alice!"
+end
+
+greet_morning
+greet_afternoon
+greet_evening
+</code></pre>
+
+
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
