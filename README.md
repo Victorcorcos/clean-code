@@ -144,8 +144,7 @@ Here are some of them...
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <pre>
-        <code>
+      <pre><code class="language-ruby">
 def greet_morning
   puts "Good morning, Alice!"
 end
@@ -161,12 +160,10 @@ end
 greet_morning
 greet_afternoon
 greet_evening
-        </code>
-      </pre>
+      </code></pre>
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
-      <pre>
-        <code>
+      <pre><code class="language-ruby">
 def greet(time_of_day, name)
   puts "Good #{time_of_day}, #{name}!"
 end
@@ -174,11 +171,11 @@ end
 greet("morning", "Alice")
 greet("afternoon", "Alice")
 greet("evening", "Alice")
-        </code>
-      </pre>
+      </code></pre>
     </td>
   </tr>
 </table>
+
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
