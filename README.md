@@ -26,17 +26,19 @@ It is a software development philosophy that consists in applying techniques tha
 # Some signs that the code is dirty 💩
 
 <!-- Code Smells -->
-<table><tr><td>
-<details open>
-  <summary>Code Smells</summary>
-  <ol>
-    <li><a href="#rigidity">Rigidity</a>: No change is trivial; each change in the code adds more twists and tangles.</li>
-    <li><a href="#complexity">Complexity</a>: Changes require a lot of research for understanding and implementation.</li>
-    <li><a href="#fragility">Fragility</a>: Changes break existing parts of the code.</li>
-    <li><a href="#imobility">Immobility</a>: You can't reuse existing parts of the code.</li>
-  </ol>
-</details>
-</td></tr></table>
+<table>
+  <tr><td>
+    <details open>
+      <summary>Code Smells</summary>
+        <ol>
+          <li><a href="#rigidity">Rigidity</a>: No change is trivial; each change in the code adds more twists and tangles.</li>
+          <li><a href="#complexity">Complexity</a>: Changes require a lot of research for understanding and implementation.</li>
+          <li><a href="#fragility">Fragility</a>: Changes break existing parts of the code.</li>
+          <li><a href="#imobility">Immobility</a>: You can't reuse existing parts of the code.</li>
+        </ol>
+    </details>
+  </td></tr>
+</table>
 
 ## Rigidity
 
@@ -98,25 +100,27 @@ There are various clean code techniques available! 🚀
 Here are some of them...
 
 <!-- Techniques -->
-<table><tr><td>
-<details open>
-  <summary>Techniques</summary>
-  <ol>
-    <li><a href="#dry">DRY</a></li>
-    <li><a href="#kiss">KISS</a></li>
-    <li><a href="#yagni">YAGNI</a></li>
-    <li><a href="#srp">SRP</a></li>
-    <li><a href="#avoid-hadouken-ifs">Avoid IFs Hadouken </a></li>
-    <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
-    <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
-    <li><a href="#avoid-comments">Avoid Comments</a></li>
-    <li><a href="#good-nomenclatures">Good Nomenclatures</a></li>
-    <li><a href="#use-vertical-formatting">Use Vertical Formatting</a></li>
-    <li><a href="#delete-code--create-code">Delete Code > Create Code</a></li>
-    <li><a href="#boy-scout-rule">Boy Scout Rule</a></li>
-  </ol>
-</details>
-</td></tr></table>
+<table>
+  <tr><td>
+    <details open>
+      <summary>Techniques</summary>
+        <ol>
+          <li><a href="#dry">DRY</a></li>
+          <li><a href="#kiss">KISS</a></li>
+          <li><a href="#yagni">YAGNI</a></li>
+          <li><a href="#srp">SRP</a></li>
+          <li><a href="#avoid-hadouken-ifs">Avoid IFs Hadouken </a></li>
+          <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
+          <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
+          <li><a href="#avoid-comments">Avoid Comments</a></li>
+          <li><a href="#good-nomenclatures">Good Nomenclatures</a></li>
+          <li><a href="#use-vertical-formatting">Use Vertical Formatting</a></li>
+          <li><a href="#delete-code--create-code">Delete Code > Create Code</a></li>
+          <li><a href="#boy-scout-rule">Boy Scout Rule</a></li>
+        </ol>
+    </details>
+  </td></tr>
+</table>
 
 
 ## DRY
@@ -191,6 +195,18 @@ greet("evening", "Alice")
 >
 > — Steve Jobs
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -215,6 +231,18 @@ greet("evening", "Alice")
 >
 > Do the **Necessary** → Do the **Simple** → Do the **Unique**
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -230,6 +258,18 @@ greet("evening", "Alice")
 >
 > — Robert C. Martin
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -237,6 +277,18 @@ greet("evening", "Alice")
 
 - Avoid nested IFs (**Hadouken IFs**)
 - Solution: Early Returns, Switch-Cases
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
@@ -256,6 +308,18 @@ greet("evening", "Alice")
 >
 > — Robert C. Martin"
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -268,6 +332,18 @@ greet("evening", "Alice")
 > "Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice."  
 >
 > — Robert C. Martin
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
@@ -286,6 +362,18 @@ greet("evening", "Alice")
 > "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous."
 >
 > — Martin Fowler
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
@@ -306,6 +394,18 @@ greet("evening", "Alice")
 >
 > — Robert C. Martin
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -324,6 +424,18 @@ greet("evening", "Alice")
 > "Programming is the art of telling another human being what one wants the computer to do."  
 >
 > — Donald Knuth
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
@@ -348,6 +460,18 @@ greet("evening", "Alice")
 >
 > — Bill Gates
 
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
@@ -366,6 +490,18 @@ greet("evening", "Alice")
 > "If we all checked in our code a little cleaner than when we checked it out, the code simply could not rot."  
 >
 > — Robert C. Martin
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
