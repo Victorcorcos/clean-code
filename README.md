@@ -141,6 +141,7 @@ Here are some of them...
 
 ### Didactic Example 👨‍💻
 
+* Before
 ```rb
 def greet_morning
   puts "Good morning, Alice!"
@@ -159,41 +160,16 @@ greet_afternoon
 greet_evening
 ```
 
-
-<table>
-  <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <pre><code class="language-ruby">
-def greet_morning
-  puts "Good morning, Alice!"
-end
-
-def greet_afternoon
-  puts "Good afternoon, Alice!"
-end
-
-def greet_evening
-  puts "Good evening, Alice!"
-end
-
-greet_morning
-greet_afternoon
-greet_evening
-      </code></pre>
-    </td>
-    <td style="vertical-align: top; padding-left: 20px;">
-      <pre><code class="language-ruby">
-def greet(time_of_day, name)
-  puts "Good #{time_of_day}, #{name}!"
+* After
+```rb
+def greet(day_period, name)
+  puts "Good #{day_period}, #{name}!"
 end
 
 greet("morning", "Alice")
 greet("afternoon", "Alice")
 greet("evening", "Alice")
-      </code></pre>
-    </td>
-  </tr>
-</table>
+```
 
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
