@@ -141,7 +141,7 @@ Here are some of them...
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **DRY**
 ```rb
 def greet_morning
   puts "Good morning, Alice!"
@@ -160,7 +160,7 @@ greet_afternoon
 greet_evening
 ```
 
-* After
+* After **DRY**
 ```rb
 def greet(day_period, name)
   puts "Good #{day_period}, #{name}!"
@@ -193,12 +193,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **KISS**
 ```rb
 
 ```
 
-* After
+* After **KISS**
 ```rb
 
 ```
@@ -229,12 +229,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **YAGNI**
 ```rb
 
 ```
 
-* After
+* After **YAGNI**
 ```rb
 
 ```
@@ -256,12 +256,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **SRP**
 ```rb
 
 ```
 
-* After
+* After **SRP**
 ```rb
 
 ```
@@ -276,30 +276,16 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Avoid Hadouken IFs**
 ```rb
 
 ```
 
-* After
+* After **Avoid Hadouken IFs**
 ```rb
 
 ```
 
-<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
-
-
-### Didactic Example 👨‍💻
-
-* Before
-```rb
-
-```
-
-* After
-```rb
-
-```
 
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
@@ -321,12 +307,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Avoid Negative Conditionals**
 ```rb
 
 ```
 
-* After
+* After **Avoid Negative Conditionals**
 ```rb
 
 ```
@@ -346,12 +332,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Avoid Flag Arguments**
 ```rb
 
 ```
 
-* After
+* After **Avoid Flag Arguments**
 ```rb
 
 ```
@@ -376,12 +362,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Avoid Comments**
 ```rb
 
 ```
 
-* After
+* After **Avoid Comments**
 ```rb
 
 ```
@@ -407,12 +393,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Good Nomenclatures**
 ```rb
 
 ```
 
-* After
+* After **Good Nomenclatures**
 ```rb
 
 ```
@@ -438,12 +424,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Use Vertical Formatting**
 ```rb
 
 ```
 
-* After
+* After **Use Vertical Formatting**
 ```rb
 
 ```
@@ -473,12 +459,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Delete Code > Create Code**
 ```rb
 
 ```
 
-* After
+* After **Delete Code > Create Code**
 ```rb
 
 ```
@@ -504,12 +490,12 @@ greet("evening", "Alice")
 
 ### Didactic Example 👨‍💻
 
-* Before
+* Before **Boy Scout Rule**
 ```rb
 
 ```
 
-* After
+* After **Boy Scout Rule**
 ```rb
 
 ```
