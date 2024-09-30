@@ -38,7 +38,6 @@ It is a software development philosophy that consists in applying techniques tha
 </details>
 </td></tr></table>
 
-
 ## Rigidity
 
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
@@ -47,6 +46,9 @@ It's when you have a system that displays the user's name on the screen, and you
 > "Business changes. Technology changes. The team changes. Team members change. The problem is not the change itself, because change will happen; the problem, in fact, is the inability to cope with change when it arrives."
 >
 > — Kent Beck
+
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+
 
 ## Complexity
 
@@ -63,6 +65,8 @@ It's when the code for sorting a list uses the code for sorting a queue and then
 >
 > — Joel Spolsky (Creator and CEO of Stack Overflow)
 
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+
 
 ## Fragility
 
@@ -78,10 +82,14 @@ It's when you fix the login and break the registration.
 >
 > — Martin Fowler
 
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
+
 
 ## Imobility
 
 It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
+
+<p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to dirty code signs</a>)</p>
 
 
 # How can I clean my code? 🧹
