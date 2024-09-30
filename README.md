@@ -274,10 +274,25 @@ greet("evening", "Alice")
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
-## Avoid Hadouken IFs 
+## Avoid Hadouken IFs
 
 - Avoid nested IFs (**Hadouken IFs**)
 - Solution: Early Returns, Switch-Cases
+
+### Didactic Example 👨‍💻
+
+* Before
+```rb
+
+```
+
+* After
+```rb
+
+```
+
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ### Didactic Example 👨‍💻
 
