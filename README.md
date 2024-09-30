@@ -122,6 +122,8 @@ Here are some of them...
   </td></tr>
 </table>
 
+> [!WARNING]
+> The didactic examples are written in Ruby language to convey the idea in a simple and didactic way, but keep in mind that these Clean Code techniques work in any programming language.
 
 ## DRY
 
