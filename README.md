@@ -141,7 +141,7 @@ Here are some of them...
 
 ### Didactic Example 👨‍💻
 
-<pre><code class="language-ruby">
+```rb
 def greet_morning
   puts "Good morning, Alice!"
 end
@@ -157,7 +157,7 @@ end
 greet_morning
 greet_afternoon
 greet_evening
-</code></pre>
+```
 
 
 <table>
