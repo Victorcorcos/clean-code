@@ -3,7 +3,7 @@
 A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
 
 
-## What is Clean Code? ♻️
+# What is Clean Code? ♻️
 
 It is a software development philosophy that consists in applying techniques that make the code...
 
@@ -15,7 +15,7 @@ It is a software development philosophy that consists in applying techniques tha
 | ✅ Understandable             | ✅ Maintain          | ✅ Resistant to Bugs 🐛                   |
 
 
-## Where did Clean Code originate? 📘
+# Where did Clean Code originate? 📘
 
 > [!NOTE]
 > “Clean Code: A Handbook of Agile Software Craftsmanship” (2008)
@@ -23,7 +23,7 @@ It is a software development philosophy that consists in applying techniques tha
 > — Robert C. Martin
 
 
-## Some signs that the code is dirty 💩
+# Some signs that the code is dirty 💩
 
 **Rigidity**: No change is trivial; each change in the code adds more twists and tangles.
 
@@ -34,7 +34,7 @@ It is a software development philosophy that consists in applying techniques tha
 **Immobility**: You can't reuse existing parts of the code.
 
 
-### Rigidity
+## Rigidity
 
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
 
@@ -43,7 +43,7 @@ It's when you have a system that displays the user's name on the screen, and you
 >
 > — Kent Beck
 
-### Complexity
+## Complexity
 
 It's when the code for sorting a list uses the code for sorting a queue and then reverses the result, making it work magically
 (*WTF metric*)
@@ -59,7 +59,7 @@ It's when the code for sorting a list uses the code for sorting a queue and then
 > — Joel Spolsky (Creator and CEO of Stack Overflow)
 
 
-### Fragility
+## Fragility
 
 It's when you fix the login and break the registration.
 
@@ -74,12 +74,12 @@ It's when you fix the login and break the registration.
 > — Martin Fowler
 
 
-### Imobility
+## Imobility
 
 It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
 
 
-## How can I clean my code? 🧹
+# How can I clean my code? 🧹
 
 There are various clean code techniques available! 🚀  
 Here are some of them...
@@ -98,7 +98,7 @@ Here are some of them...
 12. Boy Scout Rule
 
 
-### DRY
+## DRY
 
 **Don't Repeat Yourself**
 
@@ -115,7 +115,7 @@ Here are some of them...
 > — Martin Fowler
 
 
-### KISS
+## KISS
 
 **Keep It Simple Stupid**
 
@@ -132,7 +132,7 @@ Here are some of them...
 > — Steve Jobs
 
 
-### YAGNI
+## YAGNI
 
 **You Ain’t Gonna Need It**
 
@@ -154,7 +154,7 @@ Here are some of them...
 > Do the **Necessary** → Do the **Simple** → Do the **Unique**
 
 
-### SRP
+## SRP
 
 **Single Responsibility Principle**
 
@@ -167,18 +167,29 @@ Here are some of them...
 > — Robert C. Martin
 
 
-### Avoid Hadouken IFs 
+## Avoid Hadouken IFs 
 
 - Avoid nested IFs (**Hadouken IFs**)
 - Solution: Early Returns, Switch-Cases
 
 
-### Avoid Negative Conditionals
+## Avoid Negative Conditionals
 
 - Positive conditionals reduce mental strain and make it easier to reason about the code.
+- Extract complex conditional into a function that conveys the intent of the condition.
+
+> [!NOTE]
+> "Extract complex conditionals into functions.
+>
+> — Robert C. Martin"
+
+> [!NOTE]
+> "Whenever possible, conditionals should be expressed as **positives**."
+>
+> — Robert C. Martin"
 
 
-### Avoid Flag Arguments
+## Avoid Flag Arguments
 
 - Avoid providing **boolean** arguments (`true`/`false`) to functions or methods.
 - You could pass a string with a clearer name (for example).
@@ -189,7 +200,7 @@ Here are some of them...
 > — Robert C. Martin
 
 
-### Avoid Comments
+## Avoid Comments
 
 - Prefer to avoid comments rather than to write them
 - If a comment is truly necessary, explain the **“why”** not the **“what”**.
@@ -205,7 +216,7 @@ Here are some of them...
 > — Martin Fowler
 
 
-### Good Nomenclatures
+## Good Nomenclatures
 
 - Use **descriptive** variable names that reveal **intent**.
 - Use **pronounceable** and **easily searchable names**.
@@ -222,7 +233,7 @@ Here are some of them...
 > — Robert C. Martin
 
 
-### Use Vertical Formatting
+## Use Vertical Formatting
 
 - You should read your code **from top to bottom**.
 - You should read your code **without "jumping" over functions**.
@@ -239,7 +250,7 @@ Here are some of them...
 > — Donald Knuth
 
 
-### Delete Code > Create Code
+## Delete Code > Create Code
 
 - Prefer to delete code rather than create code.
 - Sometimes even new features can be created by deleting code.
@@ -260,7 +271,7 @@ Here are some of them...
 > — Bill Gates
 
 
-### Boy Scout Rule
+## Boy Scout Rule
 
 - Always leave the campsite cleaner than you found it.
 - Take the time to apply **Clean Code** principles to small parts of the code as you program.
@@ -277,7 +288,7 @@ Here are some of them...
 > — Robert C. Martin
 
 
-## Performance vs. Clarity ⚖️
+# Performance vs. Clarity ⚖️
 
 You will find programmers out there who prefer fast and cryptic code over slow and readable code.
 But... was the code really slow? 🤔
@@ -299,7 +310,7 @@ But... was the code really slow? 🤔
 > — Kent Beck
 
 
-## Conclusion 👨‍⚖️
+# Conclusion 👨‍⚖️
 
 Clean code brings a series of advantages that positively impact individuals at all stages of system development.
 
@@ -309,7 +320,7 @@ Clean code brings a series of advantages that positively impact individuals at a
 > — Robert C. Martin
 
 
-## References 📚
+# References 📚
 
 - Robert C. Martin
 - Martin Fowler
@@ -325,7 +336,7 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Jerry Sussman
 
 
-## Contact 📞
+# Contact 📞
 
 * [Victor Cordeiro Costa](https://www.linkedin.com/in/victorcorcos/)
 
