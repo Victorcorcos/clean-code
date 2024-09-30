@@ -127,7 +127,8 @@ Here are some of them...
 
 **Don't Repeat Yourself**
 
-- If a piece of code is identical or very similar to another, try to extract it into a generalized function (parameters are your friends).
+- If a piece of code is identical or very similar to another, try to extract it into a generalized function
+- parameters are your friends
 
 > [!NOTE]
 > "Duplication is the primary enemy of a well-designed system. It represents extra work, extra risk, and unnecessary extra complexity."
