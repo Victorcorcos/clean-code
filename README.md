@@ -161,8 +161,8 @@ greet_morning
 greet_afternoon
 greet_evening
 
-    </td>
-    <td>
+</td>
+<td>
 
 def greet(time_of_day, name)
   puts "Good #{time_of_day}, #{name}!"
@@ -172,7 +172,7 @@ greet("morning", "Alice")
 greet("afternoon", "Alice")
 greet("evening", "Alice")
 
-    </td>
+</td>
   </tr>
 </table>
 
