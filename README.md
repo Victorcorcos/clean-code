@@ -30,10 +30,10 @@ It is a software development philosophy that consists in applying techniques tha
 <details open>
   <summary>Dirty Code Signs</summary>
   <ol>
-    <li><a href="#rigidity">**Rigidity**: No change is trivial; each change in the code adds more twists and tangles.</a></li>
-    <li><a href="#complexity">**Complexity**: Changes require a lot of research for understanding and implementation.</a></li>
-    <li><a href="#fragility">**Fragility**: Changes break existing parts of the code.</a></li>
-    <li><a href="#immobility">**Immobility**: You can't reuse existing parts of the code.</a></li>
+    <li><a href="#rigidity">Rigidity</a>: No change is trivial; each change in the code adds more twists and tangles.</li>
+    <li><a href="#complexity">Complexity</a>: Changes require a lot of research for understanding and implementation.</li>
+    <li><a href="#fragility">Fragility</a>: Changes break existing parts of the code.</li>
+    <li><a href="#immobility">Immobility</a>: You can't reuse existing parts of the code.</li>
   </ol>
 </details>
 </td></tr></table>
