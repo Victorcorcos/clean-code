@@ -122,7 +122,8 @@ Here are some of them...
 >
 > — Martin Fowler
 
-<p align="right">(<a href="#how-can-i-clean-my-code-">Back to *Techniques*</a>)</p>
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 
 ## KISS
 
