@@ -149,7 +149,8 @@ Here are some of them...
 > — Martin Fowler
 
 > [!TIP]
-> The Combo **YAGNI** → **KISS** → **DRY**
+> Use The Combo **YAGNI** → **KISS** → **DRY**
+>
 > Do the **Necessary** → Do the **Simple** → Do the **Unique**
 
 
@@ -157,7 +158,7 @@ Here are some of them...
 
 **Single Responsibility Principle**
 
-- Separate the code into simple, well-defined, well-intentioned tasks and give clear names.
+- Separate the code into **simple**, **well-defined**, **well-intentioned** tasks and give **clear names**.
 - Prevents "spaghetti code" 🍝  
 
 > [!NOTE]
@@ -166,9 +167,9 @@ Here are some of them...
 > — Robert C. Martin
 
 
-### Avoid IFs Hadouken 
+### Avoid Hadouken IFs 
 
-- Avoid nested IFs (**Hadouken!**)
+- Avoid nested IFs (**Hadouken IFs**)
 - Solution: Early Returns, Switch-Cases
 
 
@@ -179,7 +180,7 @@ Here are some of them...
 
 ### Avoid Flag Arguments
 
-- Avoid passing **boolean** arguments (`true`/`false`) to functions or methods.
+- Avoid providing **boolean** arguments (`true`/`false`) to functions or methods.
 - You could pass a string with a clearer name (for example).
 
 > [!NOTE]
@@ -223,9 +224,9 @@ Here are some of them...
 
 ### Use Vertical Formatting
 
-- You should read your code from top to bottom.  
-- You should read your code without "jumping" over functions.  
-- Similar and dependent functions should be close vertically.
+- You should read your code **from top to bottom**.
+- You should read your code **without "jumping" over functions**.
+- Similar and dependent functions **should be close vertically**.
 
 > [!NOTE]
 > "Programs must be written for people to read, and only incidentally for machines to execute."  
@@ -262,7 +263,7 @@ Here are some of them...
 ### Boy Scout Rule
 
 - Always leave the campsite cleaner than you found it.
-- Take the time to apply Clean Code principles to small parts of the code as you program.
+- Take the time to apply **Clean Code** principles to small parts of the code as you program.
 - Over time, you will find the codebase much cleaner than when you found it!
 
 > [!NOTE]
@@ -282,17 +283,17 @@ You will find programmers out there who prefer fast and cryptic code over slow a
 But... was the code really slow? 🤔
 
 
-> [!NOTE]
+> [!WARNING]
 > "Programmers waste an enormous amount of time thinking or worrying about the speed of non-critical parts of their programs, and these attempts at efficiency have a strong negative impact when considering debugging and maintenance. We should forget about small efficiencies about 97% of the time: **premature optimization is the root of all evil.**"
 >
 > — Donald Knuth
 
-> [!NOTE]
+> [!WARNING]
 > "I asked a programmer why he wrote the code in **one line** instead of another approach that would **better express the intent**. His response was, 'This one is faster.' OK, it turns out that his code runs a picosecond (about 0.35 ps, to be precise) faster than what I proposed. And it’s triggered by a user's click on a button and executed only once. **An absolutely insignificant time gain led to writing less readable code**. **Never do that**: use the code that best expresses your intent for the next human who reads it, unless you really (really) need the execution time gain."
 >
 > — Someone on Quora
 
-> [!NOTE]
+> [!TIP]
 > "Make it work → Make it right (Clean Code) → Make it fast."
 >
 > — Kent Beck
@@ -302,7 +303,7 @@ But... was the code really slow? 🤔
 
 Clean code brings a series of advantages that positively impact individuals at all stages of system development.
 
-> [!NOTE]
+> [!TIP]
 > "A good architecture makes the system easy to understand, easy to develop, easy to maintain, and easy to deploy. The ultimate goal is to minimize the lifetime cost of the system and maximize developer productivity."
 >
 > — Robert C. Martin
