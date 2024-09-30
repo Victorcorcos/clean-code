@@ -93,13 +93,13 @@ Here are some of them...
     <li><a href="#kiss">KISS</a></li>
     <li><a href="#yagni">YAGNI</a></li>
     <li><a href="#srp">SRP</a></li>
-    <li><a href="#avoid-ifs-hadouken">Avoid IFs Hadouken </a></li>
+    <li><a href="#avoid-hadouken-ifs">Avoid IFs Hadouken </a></li>
     <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
     <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
     <li><a href="#avoid-comments">Avoid Comments</a></li>
     <li><a href="#good-nomenclatures">Good Nomenclatures</a></li>
     <li><a href="#use-vertical-formatting">Use Vertical Formatting</a></li>
-    <li><a href="#delete-code-create-code">Delete Code > Create Code</a></li>
+    <li><a href="#delete-code--create-code">Delete Code > Create Code</a></li>
     <li><a href="#boy-scout-rule">Boy Scout Rule</a></li>
   </ol>
 </details>
