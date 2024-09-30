@@ -109,7 +109,7 @@ Here are some of them...
           <li><a href="#kiss">KISS</a></li>
           <li><a href="#yagni">YAGNI</a></li>
           <li><a href="#srp">SRP</a></li>
-          <li><a href="#avoid-hadouken-ifs">Avoid IFs Hadouken </a></li>
+          <li><a href="#avoid-hadouken-ifs">Avoid Hadouken IFs</a></li>
           <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
           <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
           <li><a href="#avoid-comments">Avoid Comments</a></li>
