@@ -135,6 +135,43 @@ Here are some of them...
 >
 > — Martin Fowler
 
+### Didactic Example 👨‍💻
+
+<table>
+  <tr>
+    <td>
+```rb
+def greet_morning
+  puts "Good morning, Alice!"
+end
+
+def greet_afternoon
+  puts "Good afternoon, Alice!"
+end
+
+def greet_evening
+  puts "Good evening, Alice!"
+end
+
+greet_morning
+greet_afternoon
+greet_evening
+```
+    </td>
+    <td>
+```rb
+def greet(time_of_day, name)
+  puts "Good #{time_of_day}, #{name}!"
+end
+
+greet("morning", "Alice")
+greet("afternoon", "Alice")
+greet("evening", "Alice")
+```
+    </td>
+  </tr>
+</table>
+
 <p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
 
 
