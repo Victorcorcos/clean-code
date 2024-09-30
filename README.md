@@ -143,8 +143,9 @@ Here are some of them...
 
 <table>
   <tr>
-    <td>
-```rb
+    <td style="vertical-align: top; padding-right: 20px;">
+      <pre>
+        <code>
 def greet_morning
   puts "Good morning, Alice!"
 end
@@ -160,10 +161,12 @@ end
 greet_morning
 greet_afternoon
 greet_evening
-```
-</td>
-<td>
-```rb
+        </code>
+      </pre>
+    </td>
+    <td style="vertical-align: top; padding-left: 20px;">
+      <pre>
+        <code>
 def greet(time_of_day, name)
   puts "Good #{time_of_day}, #{name}!"
 end
@@ -171,8 +174,9 @@ end
 greet("morning", "Alice")
 greet("afternoon", "Alice")
 greet("evening", "Alice")
-```
-</td>
+        </code>
+      </pre>
+    </td>
   </tr>
 </table>
 
