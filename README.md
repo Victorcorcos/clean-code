@@ -1,6 +1,6 @@
 # Clean Code ✨
 
-A repository dedicated to share Clean Code Hints 
+A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
 
 
 ## What is Clean Code? ♻️
@@ -45,15 +45,44 @@ It's when you have a system that displays the user's name on the screen, and you
 
 ### Complexity
 
+It's when the code for sorting a list uses the code for sorting a queue and then reverses the result, making it work magically
+(*WTF metric*)
+
+> [!NOTE]
+> "Complexity kills. Complexity destroys the developer's life. Complexity makes the product hard to plan, build, and test."
+>
+> — Ray Ozzie (CTO of Microsoft)
+
+> [!NOTE]
+> "It is harder to read the code than to write it."
+>
+> — Joel Spolsky (Creator and CEO of Stack Overflow)
 
 
 ### Fragility
 
+It's when you fix the login and break the registration.
+
+> [!NOTE]
+> "If a change in requirements breaks your architecture, then your architecture is crap."  
+>
+> — Robert C. Martin
+
+> [!NOTE]
+> "If you are afraid to change something, then it is poorly designed."  
+>
+> — Martin Fowler
+
+
 ### Imobility
 
+It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
 
 
 ## How can I clean my code? 🧹
+
+There are various clean code techniques available! 🚀  
+Here are some of them...
 
 1. DRY
 2. KISS
@@ -68,11 +97,12 @@ It's when you have a system that displays the user's name on the screen, and you
 11. Delete Code > Create Code
 12. Boy Scout Rule
 
+
 ### DRY
 
 **Don't Repeat Yourself**
 
-If a piece of code is identical or very similar to another, try to extract it into a generalized function (parameters are your friends).
+- If a piece of code is identical or very similar to another, try to extract it into a generalized function (parameters are your friends).
 
 > [!NOTE]
 > "Duplication is the primary enemy of a well-designed system. It represents extra work, extra risk, and unnecessary extra complexity."
@@ -87,56 +117,214 @@ If a piece of code is identical or very similar to another, try to extract it in
 
 ### KISS
 
+**Keep It Simple Stupid**
 
+- Try to make the code so "stupid" that a 5-year-old could understand it.
+
+> [!NOTE]
+> "A difference between a smart programmer and a professional programmer is that the professional understands that clarity is what matters. 👑 Professionals use their powers for good and write code that others can understand."
+>
+> — Robert C. Martin
+
+> [!NOTE]
+> "Simple can be harder than complex. You have to work hard to get your thinking clean and simple. But it's worth it in the end, because once you get there, you can move mountains."
+>
+> — Steve Jobs
 
 
 ### YAGNI
 
+**You Ain’t Gonna Need It**
 
+- Don't build a cannon to kill a fly; you might not even need it afterward.
+
+> [!NOTE]
+> "90% of the features for the future are never used."
+>
+> — Don Wells (Extreme Programming)
+
+> [!NOTE]
+> "YAGNI applies only to the effort of making the software support future and/or hypothetical functionality; it does not apply to the effort of making the software easier to change."
+>
+> — Martin Fowler
+
+> [!TIP]
+> The Combo **YAGNI** → **KISS** → **DRY**
+> Do the **Necessary** → Do the **Simple** → Do the **Unique**
 
 
 ### SRP
 
+**Single Responsibility Principle**
 
+- Separate the code into simple, well-defined, well-intentioned tasks and give clear names.
+- Prevents "spaghetti code" 🍝  
+
+> [!NOTE]
+> "Functions should do one thing, do it well, and do only that."  
+>
+> — Robert C. Martin
 
 
 ### Avoid IFs Hadouken 
 
-
+- Avoid nested IFs (**Hadouken!**)
+- Solution: Early Returns, Switch-Cases
 
 
 ### Avoid Negative Conditionals
 
-
+- Positive conditionals reduce mental strain and make it easier to reason about the code.
 
 
 ### Avoid Flag Arguments
 
+- Avoid passing **boolean** arguments (`true`/`false`) to functions or methods.
+- You could pass a string with a clearer name (for example).
 
+> [!NOTE]
+> "Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice."  
+>
+> — Robert C. Martin
 
 
 ### Avoid Comments
 
+- Prefer to avoid comments rather than to write them
+- If a comment is truly necessary, explain the **“why”** not the **“what”**.
 
+> [!NOTE]
+> "Don’t use a comment when you can use a function or a variable."
+>
+> — Robert C. Martin
+
+> [!NOTE]
+> "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous."
+>
+> — Martin Fowler
 
 
 ### Good Nomenclatures
 
+- Use **descriptive** variable names that reveal **intent**.
+- Use **pronounceable** and **easily searchable names**.
+- Use **conventions** (related to the *language*, the *business*, and the organization/team's *communication*).
 
+> [!NOTE]
+> "You should name a variable using the same care with which you name a first-born child."  
+>
+> — Robert C. Martin
+
+> [!NOTE]
+> "Any organization that designs a system will produce a design whose structure is a copy of the organization’s communication structure."  
+>
+> — Robert C. Martin
 
 
 ### Use Vertical Formatting
 
+- You should read your code from top to bottom.  
+- You should read your code without "jumping" over functions.  
+- Similar and dependent functions should be close vertically.
 
+> [!NOTE]
+> "Programs must be written for people to read, and only incidentally for machines to execute."  
+>
+> — Hal Abelson and Jerry Sussman
+
+> [!NOTE]
+> "Programming is the art of telling another human being what one wants the computer to do."  
+>
+> — Donald Knuth
 
 
 ### Delete Code > Create Code
 
+- Prefer to delete code rather than create code.
+- Sometimes even new features can be created by deleting code.
 
+> [!NOTE]
+> "One of my most productive days was when I threw away 1,000 lines of code."  
+>
+> — Ken Thompson
+
+> [!NOTE]
+> "Code, like poetry, should be short and concise."  
+>
+> — Santosh Kalwar
+
+> [!NOTE]
+> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."  
+>
+> — Bill Gates
 
 
 ### Boy Scout Rule
 
+- Always leave the campsite cleaner than you found it.
+- Take the time to apply Clean Code principles to small parts of the code as you program.
+- Over time, you will find the codebase much cleaner than when you found it!
+
+> [!NOTE]
+> "Programming is a social activity."  
+>
+> — Robert C. Martin
+
+> [!NOTE]
+> "If we all checked in our code a little cleaner than when we checked it out, the code simply could not rot."  
+>
+> — Robert C. Martin
 
 
+## Performance vs. Clarity ⚖️
+
+You will find programmers out there who prefer fast and cryptic code over slow and readable code.
+But... was the code really slow? 🤔
+
+
+> [!NOTE]
+> "Programmers waste an enormous amount of time thinking or worrying about the speed of non-critical parts of their programs, and these attempts at efficiency have a strong negative impact when considering debugging and maintenance. We should forget about small efficiencies about 97% of the time: **premature optimization is the root of all evil.**"
+>
+> — Donald Knuth
+
+> [!NOTE]
+> "I asked a programmer why he wrote the code in **one line** instead of another approach that would **better express the intent**. His response was, 'This one is faster.' OK, it turns out that his code runs a picosecond (about 0.35 ps, to be precise) faster than what I proposed. And it’s triggered by a user's click on a button and executed only once. **An absolutely insignificant time gain led to writing less readable code**. **Never do that**: use the code that best expresses your intent for the next human who reads it, unless you really (really) need the execution time gain."
+>
+> — Someone on Quora
+
+> [!NOTE]
+> "Make it work → Make it right (Clean Code) → Make it fast."
+>
+> — Kent Beck
+
+
+## Conclusion 👨‍⚖️
+
+Clean code brings a series of advantages that positively impact individuals at all stages of system development.
+
+> [!NOTE]
+> "A good architecture makes the system easy to understand, easy to develop, easy to maintain, and easy to deploy. The ultimate goal is to minimize the lifetime cost of the system and maximize developer productivity."
+>
+> — Robert C. Martin
+
+
+## References 📚
+
+- Robert C. Martin
+- Martin Fowler
+- Don Wells
+- Ray Ozzie
+- Joel Spolsky
+- Bjarne Stroustrup
+- Ken Thompson
+- Santosh Kalwar
+- Donald Knuth
+- Kent Beck
+- Harold Abelson
+- Jerry Sussman
+
+
+## Contact 📞
+
+* [Victor Cordeiro Costa](https://www.linkedin.com/in/victorcorcos/)
 
