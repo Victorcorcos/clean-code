@@ -970,6 +970,11 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Jerry Sussman
 
 
+# Slides 🖼️
+
+https://docs.google.com/presentation/d/1WLR0kgqMDsuLhBedybn5qwdRt_IV92fCCgdhAoKr_m4/edit?usp=sharing
+
+
 # Contact 📞
 
 * [Victor Cordeiro Costa](https://www.linkedin.com/in/victorcorcos/)
