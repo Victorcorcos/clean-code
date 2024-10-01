@@ -972,7 +972,7 @@ Clean code brings a series of advantages that positively impact individuals at a
 
 # Slides 🖼️
 
-https://docs.google.com/presentation/d/1WLR0kgqMDsuLhBedybn5qwdRt_IV92fCCgdhAoKr_m4/edit?usp=sharing
+* https://docs.google.com/presentation/d/1WLR0kgqMDsuLhBedybn5qwdRt_IV92fCCgdhAoKr_m4/edit?usp=sharing
 
 
 # Contact 📞
