@@ -1,7 +1,7 @@
 # Clean Code ✨
 
 <p align="center">
-  <img src="https://i.imgur.com/hB0UkG9.jpeg" alt="Circular Image" style="width: 200px; height: 200px; border-radius: 50%;">
+  <img src="https://github.com/user-attachments/assets/fb8011c2-0506-44b2-a16a-7663e8b69f77" alt="output_image" />
 </p>
 
 A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
