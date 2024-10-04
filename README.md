@@ -1,12 +1,10 @@
 # Clean Code ✨
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d28d517f-71df-4646-ba0d-a391a80ecdc6" alt="output_image" style="width: 250px; height: 250px" />
+  <img src="https://i.imgur.com/hB0UkG9.jpeg" alt="Circular Image" style="width: 200px; height: 200px; border-radius: 50%;">
 </p>
 
-
-
-A clean repository dedicated to share Clean Code techniques, hints, didactic examples, realiable references and signals that the code is dirty.
+A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
 
 
 # What is Clean Code? ♻️
@@ -50,9 +48,6 @@ It is a software development philosophy that consists in applying techniques tha
 
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
 
-<img src="https://github.com/user-attachments/assets/1cad5ec1-4116-4068-845b-dfd0f01f6863" alt="Rigidity" style="width: 750px;">
-
-
 > [!NOTE]
 > "Business changes. Technology changes. The team changes. Team members change. The problem is not the change itself, because change will happen; the problem, in fact, is the inability to cope with change when it arrives."
 >
@@ -64,10 +59,7 @@ It's when you have a system that displays the user's name on the screen, and you
 ## Complexity
 
 It's when the code for sorting a list uses the code for sorting a queue and then reverses the result, making it work magically
-(**WTF** *metric*)
-
-<img src="https://github.com/user-attachments/assets/e7f45b3b-9f73-473b-90cd-620578aee39d" alt="Complexity" style="width: 750px;">
-
+(*WTF metric*)
 
 > [!NOTE]
 > "Complexity kills. Complexity destroys the developer's life. Complexity makes the product hard to plan, build, and test."
@@ -86,9 +78,6 @@ It's when the code for sorting a list uses the code for sorting a queue and then
 
 It's when you fix the login and break the registration.
 
-<img src="https://github.com/user-attachments/assets/3b96de55-3069-414d-b1ba-95c95381d664" alt="Fragility" style="width: 500px;">
-
-
 > [!NOTE]
 > "If a change in requirements breaks your architecture, then your architecture is crap."  
 >
@@ -104,14 +93,7 @@ It's when you fix the login and break the registration.
 
 ## Imobility
 
-It's when you want to implement a code that builds a table but can't reuse an existing code that builds a table that is 90% similar for this purpose.
-
-<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 250px;">
-
-> [!NOTE]
-> "Code reuse is the Holy Grail of Software Engineering."
->
-> — Douglas Crockford
+It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
 
 <p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
@@ -133,6 +115,7 @@ Here are some of them...
           <li><a href="#srp">SRP</a></li>
           <li><a href="#avoid-hadouken-ifs">Avoid Hadouken IFs</a></li>
           <li><a href="#avoid-negative-conditionals">Avoid Negative Conditionals</a></li>
+          <li><a href="#encapsulate-conditionals">Encapsulate Conditionals</a></li>
           <li><a href="#avoid-flag-arguments">Avoid Flag Arguments</a></li>
           <li><a href="#avoid-comments">Avoid Comments</a></li>
           <li><a href="#good-nomenclatures">Good Nomenclatures</a></li>
@@ -453,12 +436,6 @@ process_order(order)
 ## Avoid Negative Conditionals
 
 - Positive conditionals reduce mental strain and make it easier to reason about the code.
-- Extract complex conditional into a function that conveys the intent of the condition.
-
-> [!NOTE]
-> "Encapsulate conditionals."
->
-> — Robert C. Martin"
 
 > [!NOTE]
 > "Whenever possible, conditionals should be expressed as **positives**."
@@ -498,6 +475,16 @@ end
 user = User.new
 check_access(user)
 ```
+
+## Encapsulate Conditionals
+
+- Extract complex conditionals into functions that convey the intent of the condition.
+- Create names that reveal the intent of the conditional.
+
+> [!NOTE]
+> "Boolean logic is hard enough to understand without having to see it in the context of an if or while statement. Extract functions that explain the intent of the conditional."
+>
+> — Robert C. Martin"
 
 * Before **Encapsulate conditionals**
 ```rb
@@ -792,11 +779,6 @@ puts result # 15, 5, 50, 2
 > — Ken Thompson
 
 > [!NOTE]
-> "The mark of a mature programmier is willingness to throw out code you spent time on when you realize it's pointless."
->
-> — Bram Cohen
-
-> [!NOTE]
 > "Code, like poetry, should be short and concise."  
 >
 > — Santosh Kalwar
@@ -962,7 +944,7 @@ But... was the code really slow? 🤔
 > — Someone on Quora
 
 > [!TIP]
-> "Make it work → Make it right (Clean Code) → Make it fast."
+> "Make it work → Make it right *(Clean Code)* → Make it fast."
 >
 > — Kent Beck
 
@@ -991,9 +973,6 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Kent Beck
 - Harold Abelson
 - Jerry Sussman
-- Douglas Crockford
-- Bram Cohen
-- Dall-E
 
 
 # Slides 🖼️
