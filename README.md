@@ -6,7 +6,7 @@
 
 
 
-A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
+A clean repository dedicated to share Clean Code techniques, hints, didactic examples, realiable references and signals that the code is dirty.
 
 
 # What is Clean Code? ♻️
