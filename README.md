@@ -476,6 +476,8 @@ user = User.new
 check_access(user)
 ```
 
+<p align="right">(<a href="#how-can-i-clean-my-code-">back to techniques</a>)</p>
+
 ## Encapsulate Conditionals
 
 - Extract complex conditionals into functions that convey the intent of the condition.
