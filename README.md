@@ -50,6 +50,9 @@ It is a software development philosophy that consists in applying techniques tha
 
 It's when you have a system that displays the user's name on the screen, and you're going to implement the code that shows the surname, but you had to change the code that shows the age, nationality, CPF, the one that calculates the next prime number, and the one that discovers the cure for cancer.
 
+<img src="https://github.com/user-attachments/assets/1cad5ec1-4116-4068-845b-dfd0f01f6863" alt="Rigidity" style="width: 750px;">
+
+
 > [!NOTE]
 > "Business changes. Technology changes. The team changes. Team members change. The problem is not the change itself, because change will happen; the problem, in fact, is the inability to cope with change when it arrives."
 >
@@ -61,7 +64,10 @@ It's when you have a system that displays the user's name on the screen, and you
 ## Complexity
 
 It's when the code for sorting a list uses the code for sorting a queue and then reverses the result, making it work magically
-(*WTF metric*)
+(**WTF** *metric*)
+
+<img src="https://github.com/user-attachments/assets/e7f45b3b-9f73-473b-90cd-620578aee39d" alt="Complexity" style="width: 750px;">
+
 
 > [!NOTE]
 > "Complexity kills. Complexity destroys the developer's life. Complexity makes the product hard to plan, build, and test."
@@ -80,6 +86,9 @@ It's when the code for sorting a list uses the code for sorting a queue and then
 
 It's when you fix the login and break the registration.
 
+<img src="https://github.com/user-attachments/assets/3b96de55-3069-414d-b1ba-95c95381d664" alt="Fragility" style="width: 500px;">
+
+
 > [!NOTE]
 > "If a change in requirements breaks your architecture, then your architecture is crap."  
 >
@@ -96,6 +105,13 @@ It's when you fix the login and break the registration.
 ## Imobility
 
 It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
+
+<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 500px;">
+
+> [!NOTE]
+> "Code reuse is the Holy Grail of Software Engineering."
+>
+> — Douglas Crockford
 
 <p align="right">(<a href="#some-signs-that-the-code-is-dirty-">back to code smells</a>)</p>
 
@@ -970,6 +986,8 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Kent Beck
 - Harold Abelson
 - Jerry Sussman
+- Douglas Crockford
+- Dall-E
 
 
 # Slides 🖼️
