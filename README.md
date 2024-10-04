@@ -106,7 +106,7 @@ It's when you fix the login and break the registration.
 
 It's when you implement code that builds a table but can't reuse existing code that builds a table that is 90% similar.
 
-<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 500px;">
+<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 250px;">
 
 > [!NOTE]
 > "Code reuse is the Holy Grail of Software Engineering."
@@ -792,6 +792,11 @@ puts result # 15, 5, 50, 2
 > — Ken Thompson
 
 > [!NOTE]
+> "The mark of a mature programmier is willingness to throw out code you spent time on when you realize it's pointless."
+>
+> — Bram Cohen
+
+> [!NOTE]
 > "Code, like poetry, should be short and concise."  
 >
 > — Santosh Kalwar
@@ -987,6 +992,7 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Harold Abelson
 - Jerry Sussman
 - Douglas Crockford
+- Bram Cohen
 - Dall-E
 
 
