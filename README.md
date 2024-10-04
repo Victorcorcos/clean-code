@@ -1,8 +1,10 @@
 # Clean Code ✨
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fb8011c2-0506-44b2-a16a-7663e8b69f77" alt="output_image" />
+  <img src="https://github.com/user-attachments/assets/d28d517f-71df-4646-ba0d-a391a80ecdc6" alt="output_image" style="width: 250px; height: 250px" />
 </p>
+
+
 
 A clean repository dedicated to share Clean Code techniques, hints, didactic examples, good references and signals that the code is dirty.
 
