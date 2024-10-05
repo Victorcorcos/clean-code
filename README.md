@@ -997,6 +997,8 @@ Clean code brings a series of advantages that positively impact individuals at a
 - Kent Beck
 - Harold Abelson
 - Jerry Sussman
+- Douglas Crockford
+- Dall-E
 
 
 # Slides 🖼️
