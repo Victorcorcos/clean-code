@@ -104,7 +104,7 @@ It's when you fix the login and break the registration.
 
 ## Imobility
 
-It's when you want to implement a code that builds a table but can't reuse an existing code that builds a table that is 90% similar for this purpose.
+It's when you want to implement a code that builds a table but can't reuse an existing code that builds a table that is 90% similar.
 
 <img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 250px;">
 
