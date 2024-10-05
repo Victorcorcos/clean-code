@@ -978,6 +978,10 @@ Clean code brings a series of advantages that positively impact individuals at a
 >
 > — Robert C. Martin
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a87ec99-fd21-4a0f-8456-f11d8735edbb" alt="output_image" style="width: 500px" />
+</p>
+
 
 # References 📚
 
