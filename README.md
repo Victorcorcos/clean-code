@@ -106,7 +106,7 @@ It's when you fix the login and break the registration.
 
 It's when you want to implement a code that builds a table but can't reuse an existing code that builds a table that is 90% similar.
 
-<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 250px;">
+<img src="https://github.com/user-attachments/assets/13248c78-0554-4831-9644-168606b1094a" alt="Imobility" style="width: 400px;">
 
 > [!NOTE]
 > "Code reuse is the Holy Grail of Software Engineering."
