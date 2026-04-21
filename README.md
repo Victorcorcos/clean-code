@@ -1,7 +1,7 @@
 # Clean Code ✨
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d28d517f-71df-4646-ba0d-a391a80ecdc6" alt="output_image" style="width: 250px; height: 250px" />
+  <img src="https://github.com/user-attachments/assets/d28d517f-71df-4646-ba0d-a391a80ecdc6" alt="output_image" width="40%" />
 </p>
 
 
